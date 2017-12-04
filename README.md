@@ -34,7 +34,7 @@ python manage.py runserver
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [Oussail Alaoui](https://github.com/Oussail)
+* **Oussail Alaoui** - *Initial work* - [Profile](https://github.com/Oussail)
 
 
 ## Acknowledgments
