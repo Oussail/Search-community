@@ -3,7 +3,10 @@ import os
 import sys
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "search_community.settings")
+    if os.environ.get('DJANGO_DEVELOPMENT') == "True":
+        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "search_community.dev_settings")
+    else:
+        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "search_community.dep_settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
