@@ -1,3 +1,5 @@
 *.pyc
 /__pycache__
 .idea
+/search_community/dep_settings.py
+/search_community/dev_settings.py
